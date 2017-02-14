@@ -1,0 +1,35 @@
+{
+  "name": "typescript-component",
+  "version": "1.0.0",
+  "description": "Typescript Component",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --progress --port 3000 --hot --host 0.0.0.0",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "Typescript",
+    "components"
+  ],
+  "author": "Brandon Thompson",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/node": "^7.0.5",
+    "awesome-typescript-loader": "^3.0.4-rc.2",
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "handlebars": "^4.0.6",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.28.0",
+    "karma": "^1.4.1",
+    "karma-webpack": "^2.0.2",
+    "sass-loader": "^6.0.0",
+    "typescript": "^2.1.6",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0",
+    "webpack-merge": "^2.6.1"
+  }
+}
